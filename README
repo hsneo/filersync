@@ -1,0 +1,52 @@
+FileRsync module 0.1
+====================
+Mind & Media company from Singapore has developed the module. 
+
+
+Date        Author     Changes
+=======================================
+2010-04-11  Hock Sik   To develop scripts for automating the copy of files during the plugging-in 
+                       of an external hdd
+
+Introduction.
+*************
+This script creates the backup directory, mounts point to /dev/sdb1, use rsync to copy 
+files from the source directory to the destination and list out all files and 
+directories in the rundata{rundate}.txt and email the run result to user
+
+Those sync to an external hdd are captured in the log file (backup.log).
+This is a module for allowing users to configure config files
+for accessing a ftp server
+
+
+Installation
+********************
+Place the rules file named 95-usbplugin.rules under  /etc/udev/rules.d
+
+It will tell system to find and run an executable script.  
+
+
+Copyrights:
+***********
+GENERAL PUBLIC LICENSE
+April 2011
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+10 UBI Crescent, #03-59 UBI TechPark,
+Singapore 408564
+
+Everyone is permitted to copy and distribute verbatim copies
+of the module. Changing it is allowed.
+
+
+
+UPGRADE
+*******
+For upgrade, pls look for the upgraded version at https://github.com/mindmedia
+
+If you need help, post a message to anthony@mindmedia.com.sg.
+    
+The website is at http://www.mindmedia.com.sg.
+
+Enjoy!
+
