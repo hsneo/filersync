@@ -1,3 +1,0 @@
-# This script triggers the execution of the perl script when an external hdd is plugged in
-#
-SUBSYSTEM=="usb", ATTR{serial}=="M6116018VF16", PROGRAM="/home/neohs/rsyncScript.pl %k", SYMLINK+="%c" NAME="%c{1}", SYMLINK+="%c{2+}"

@@ -1,0 +1,16 @@
+test version 2.0
+
+[root@hocksik project]# cp -r FileRsync FileRsync2 
+[root@hocksik project]# cd FileRsync2
+[root@hocksik FileRsync2]# ls
+95-usbplugin.rules  README  rsyncScript.pl
+[root@hocksik FileRsync2]# rm 95-usbplugin.rules 
+rm: remove regular file `95-usbplugin.rules'? y
+[root@hocksik FileRsync2]# ls
+README  rsyncScript.pl
+[root@hocksik FileRsync2]# vi createversion2.txt
+[root@hocksik FileRsync2]# git checkout -b version2.0
+D	95-usbplugin.rules
+Switched to a new branch 'version2.0'
+[root@hocksik FileRsync2]# vi createversion2.txt 
+

@@ -1,4 +1,4 @@
-FileRsync module 0.1
+FileRsync module 0.11
 ====================
 Mind & Media company from Singapore has developed the module. 
 
@@ -7,6 +7,8 @@ Date        Author     Changes
 =======================================
 2010-04-11  Hock Sik   To develop scripts for automating the copy of files during the plugging-in 
                        of an external hdd
+2010-04-28  Hock Sik   To create new script named createversion2.txt
+2010-04-28  Hock SIk   To amend script for version 3.0
 
 Introduction.
 *************

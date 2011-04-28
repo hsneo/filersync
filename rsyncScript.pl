@@ -12,6 +12,7 @@
 # this script is at /home/neohs
 
 #cat /proc/bus/usb/devices | grep -i product
+# this is version 3.0
 
 #SUBSYSTEM=="usb", ATTR{serial}=="M6116018VF16", PROGRAM="/home/neohs/rsyncScript.pl %k", SYMLINK+="%c" NAME="%c{1}", SYMLINK+="%c{2+}"
 
